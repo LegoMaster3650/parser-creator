@@ -1,0 +1,22 @@
+{
+  "name": "parser-creator",
+  "version": "0.0.1",
+  "description": "Easy to use parser creator for a custom programming language.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/parser-creator"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "parser"
+  ]
+}

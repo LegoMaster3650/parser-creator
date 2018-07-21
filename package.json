@@ -2,11 +2,15 @@
   "name": "parser-creator",
   "version": "0.0.1",
   "description": "Easy to use parser creator for a custom programming language.",
-  "main": "server.js",
+  "main": "src/main.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node src/main.js"
   },
   "dependencies": {
+    
+  },
+  "devDependencies": {
+    
   },
   "engines": {
     "node": "8.x"
@@ -14,7 +18,7 @@
   "repository": {
     "url": "https://glitch.com/edit/#!/parser-creator"
   },
-  "license": "MIT",
+  "license": "MWBY",
   "keywords": [
     "node",
     "parser"

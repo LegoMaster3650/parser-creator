@@ -53,7 +53,7 @@ module.exports.parser = function parser (options) {
     return {content: item, flag: flagname}
   }
   var opts = {main: "./parser.js"}
-  if (options.main) opts.main = options.main
+  if (options) if (options.main) opts.main = options.main
   this.main = require(opts.main)
   this.method = function method (moptions) {
     var mopts = {path: "./method.js"}

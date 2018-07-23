@@ -57,7 +57,7 @@ module.exports.parser = function parser (options) {
   this.main = require(opts.main)
   this.method = function method (moptions) {
     var mopts = {path: "./method.js"}
-    if (moptions.path) mopts.path = moptions.path
+    if (moptions) if (moptions.path) mopts.path = moptions.path
     this.path = mopts.path
   } //parser.method
   
